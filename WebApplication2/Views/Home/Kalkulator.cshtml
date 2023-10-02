@@ -1,0 +1,14 @@
+﻿@model WebApplication2.Models.Numbers
+
+@{
+    ViewData["Title"] ="Kalkulator";
+}
+
+<form action="" method="post">
+    <input type="number1" asp-for="Number1" placeholder="FirstNumber" />
+    <input type="Mark" asp-for="Mark" placeholder="Mark" />
+    <input type="number2" asp-for="Number2" placeholder="SecondNumber" />
+    <button type="submit">Calculate</button>
+</form>
+
+@ViewBag.wynik
